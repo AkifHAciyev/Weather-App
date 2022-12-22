@@ -1,0 +1,63 @@
+.wrapper {
+	height: 500px;
+	width: 300px;
+	margin: 0 auto;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+}
+
+.form {
+	border-radius: 10px 10px 0 0;
+	background-color: rgb(60, 98, 116);
+	padding-top: 30px;
+}
+
+input {
+	border-radius: 5px;
+	margin-bottom: 20px;
+	border: none;
+	padding: 10px;
+}
+
+.main {
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+.countryName {
+	font-size: 20px;
+	color: grey;
+}
+
+.imgDiv > img {
+	height: 100px;
+	width: 100px;
+}
+
+.overcast {
+	font-size: 20px;
+	line-height: 0;
+}
+
+.temp {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 0;
+}
+
+.dayTemp {
+	font-size: 35px;
+	line-height: 30px;
+}
+
+.footer {
+	margin: 30px 0;
+}
+
+.footer > span {
+	margin-left: 10px;
+	color: grey;
+}
